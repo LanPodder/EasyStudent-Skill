@@ -1,0 +1,10 @@
+/.coverage
+/.idea/
+/cover/
+envname/
+__pycache__
+/.project
+/.pydevproject
+.venv
+.vscode
+skill_sdk.egg-info/
