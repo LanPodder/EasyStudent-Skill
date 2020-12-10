@@ -1,15 +1,16 @@
 # Skill EasyStudent - python
 
-## Samples
+## What is this
+A Magenta Voice Skill that helps with managing
+* Tracking and managing priorities of Tasks/Assignments
+* Keeping Track of daily routines
+* [Coming soon] Structuring Tasks based on configuration (Kanban, Scrum etc.)
 
-### Hello
+## Task Management
+Telling your Magenta voice assistant that you have a specific Task and giving it a deadline for it
+Allows for Saving and managing priorities of all open tasks.
 
-This implementation returns "Hello" greeting to user saying "Hello". 
-
-### Chuck Norris Jokes
-
-This implementation returns a random joke from Chuck Norris jokes database: http://api.icndb.com/jokes/random
-
-### Guess the Number Game
-
-This is a sample implementation of "Guess the Number" game. User says a number and we answer if they got it right or not.
+## Daily Routine Management
+Set up a daily routine by telling your Magenta Voice assistant "Set Routine 100 Pushups at 9 O'Clock"
+And it will remind you whenever you ask for it [Coming soon] or by setting a alarm clock for specific routines
+"Wake me up for 100 Pushups" -> Wakes you up at arround 8:45
