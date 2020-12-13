@@ -42,4 +42,4 @@ msgid "TEAM_10_RETRIEVE_TODOS_SUCCESS_MESSAGE"
 msgstr "Your TODOs are {data.my_todos}
 
 msgid "TEAM_10_ADDED_ROUTINE"
-msgstr "Added following routine for {routine_time}: {}
+msgstr "Added following routine for {routine_time}: {routine_description}"
