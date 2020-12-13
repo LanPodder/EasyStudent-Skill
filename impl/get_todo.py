@@ -21,7 +21,7 @@ def handler() -> Response:
     print(get_tasks())
     my_tasks = get_tasks()
     # We get a translated message
-    msg = _('TEAM_10_RETRIEVE_TODOS_SUCCESS_MESSAGE').format()
+    msg = _('TEAM_10_RETRIEVE_TODOS_SUCCESS_MESSAGE', kw=[my_tasks]).format()
     print(msg)
     # We create a simple response
     response = tell(msg)
