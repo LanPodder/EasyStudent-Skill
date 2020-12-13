@@ -21,7 +21,7 @@ def handler(routine_description: str, routine_time: str) -> Response:
     :return:        Response
     """
 
-    msg = _('TEAM_10_ADDED_ROUTINE') 
+    msg = _('TEAM_10_ADDED_ROUTINE').format()
     
     add_routine(routine_description, routine_time)
     

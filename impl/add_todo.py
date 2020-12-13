@@ -21,9 +21,9 @@ def handler(task_to_add: str, deadline: str = None) -> Response:
     :return:        Response
     """
     # We get a translated message
-    msg = _('TEAM_10_ADD_TASK_NO_DEADLINE_SUCCESS_MESSAGE') 
+    msg = _('TEAM_10_ADD_TASK_NO_DEADLINE_SUCCESS_MESSAGE').format()
     if(deadline is not None):
-        msg = _('TEAM_10_ADD_TASK_PLUS_DEADLINE_SUCCESS_MESSAGE')
+        msg = _('TEAM_10_ADD_TASK_PLUS_DEADLINE_SUCCESS_MESSAGE').format()
     
     
     add_task(task_to_add, deadline)
