@@ -39,7 +39,7 @@ msgid "TEAM_10_ADD_TASK_PLUS_DEADLINE_SUCCESS_MESSAGE"
 msgstr "TODO {task_to_add} wurde hinzugefuegt. Abgabe am {deadline}"
 
 msgid "TEAM_10_RETRIEVE_TODOS_SUCCESS_MESSAGE"
-msgstr "Deine TODOs sind {my_tasks}
+msgstr "Deine TODOs sind {my_tasks}"
 
 msgid "TEAM_10_ADDED_ROUTINE"
 msgstr "Added following routine for {routine_time}: {routine_description}"
