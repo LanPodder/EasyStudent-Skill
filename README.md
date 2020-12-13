@@ -16,7 +16,7 @@ And it will remind you whenever you ask for it [Coming soon] or by setting a ala
 "Wake me up for 100 Pushups" -> Wakes you up at arround 8:45
 
 ## Demo Videos
-https://www.youtube.com/watch?v=lw-XDKg7CJw
-https://www.youtube.com/watch?v=SGumCKruCu0
-https://www.youtube.com/watch?v=4cr38oDshS0
-https://www.youtube.com/watch?v=NFYScpdLbtA
+https://www.youtube.com/watch?v=lw-XDKg7CJw 
+https://www.youtube.com/watch?v=SGumCKruCu0 
+https://www.youtube.com/watch?v=4cr38oDshS0 
+https://www.youtube.com/watch?v=NFYScpdLbtA 
