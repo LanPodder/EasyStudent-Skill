@@ -20,9 +20,9 @@ def handler(routine_time: str) -> Response:
     :return:        Response
     """
     print(get_routine(routine_time))
-    my_tasks = get_routine(routine_time)
+    my_routines = get_routine(routine_time)
     # We get a translated message
-    msg = _('TEAM_10_RETRIEVE_TODOS_SUCCESS_MESSAGE').format()
+    msg = _('TEAM_10_RETRIEVE_TODOS_SUCCESS_MESSAGE', my_routines)
     print(msg)
     # We create a simple response
     response = tell(msg)
