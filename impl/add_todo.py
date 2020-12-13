@@ -26,7 +26,7 @@ def handler(task_to_add: str, deadline: str = None) -> Response:
         msg = _('TEAM_10_ADD_TASK_PLUS_DEADLINE_SUCCESS_MESSAGE')
     
     
-    add_todo(task_to_add)
+    add_task(task_to_add, deadline)
 
     print(msg)
     # We create a simple response

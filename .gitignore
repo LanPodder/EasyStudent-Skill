@@ -8,3 +8,4 @@ __pycache__
 .venv
 .vscode
 skill_sdk.egg-info/
+key.txt
