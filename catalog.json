@@ -2,15 +2,18 @@
     "v2": {
       "showsInCatalog": true,
       "displayName": "EasyStudent",
-      "headline": "A Skill that helps you save time",
-      "description": "Manage your TODOs and Projects aswell as Routines using this amazing Skill",
+      "headline": "Aufgaben",
+      "description": "Manage your Assignments and Projects aswell as Routines using this amazing Skill",
       "iconUrl": "data:image/png;base64,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",
       "design": {
         "backgroundColor": "#4873bb"
       },
       "examplePhrases": [
-          "Hallo Magenta, Ich muss meine Hausaufgaben erledigen",
-          "Hallo Magenta, Welche Aufgaben habe ich"
+          "Ich muss meine Hausaufgaben erledigen",
+          "Welche Aufgaben habe ich",
+		  "Welche Aufgaben sind dringend",
+		  "Setze Routine frühstücken für 8 Uhr",
+		  
       ]
     },
     "fileVersion": 1
