@@ -12,4 +12,4 @@ def add_routine(routine_description: str, routine_time: str):
 
 def get_routine(routine_time):
     global df_routines
-    return df_routinesf.loc[df_routines['routine_time'] == routine_time]['routine_description']
+    return df_routines.loc[df_routines['routine_time'] == routine_time]['routine_description']
