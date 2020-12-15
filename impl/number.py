@@ -33,7 +33,7 @@ def handler(number: int) -> Response:
         # We get a random number
         if number == randint(1, 10):
             # ... and congratulate the winner!
-            msg = _('HELLOAPP_NUMBER_SUCCESS_MESSAGE').format()
+            msg = _('HELLOAPP_NUMBER_SUCCESS_MESSAGE')
         else:
             # ... or encourage them to keep trying
             msg = _('HELLOAPP_NUMBER_WRONG_MESSAGE')
