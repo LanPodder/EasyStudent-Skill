@@ -13,7 +13,9 @@
           "Welche Aufgaben habe ich",
 		  "Welche Aufgaben sind dringend",
 		  "Setze Routine frühstücken für 8 Uhr",
-		  
+		  "(Work in Progress) Erstelle ein Projekt",
+		  "(Work in Progress) Das Projekt heißt [Mein Projektname]",
+		  "(Work in Progress) Füge Teilaufgabe [Teilaufgabenname] für Projekt [Mein Projektname] hinzu"
       ]
     },
     "fileVersion": 1

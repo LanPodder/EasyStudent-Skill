@@ -32,4 +32,4 @@ def handler(task_to_add: str, deadline: str = None) -> Response:
     # We create a simple response
     response = tell(msg)
     # We return the response
-    return response
+    return ask("Bis wann musst du die Aufgabe machen?")
