@@ -33,13 +33,13 @@ msgid "HELLOAPP_NO_NUMBER_MESSAGE"
 msgstr "Ich hatte Probleme dich zu verstehen. Bitte rate eine Nummer von 1 bis 10."
 
 msgid "TEAM_10_ADD_TASK_NO_DEADLINE_SUCCESS_MESSAGE"
-msgstr "Aufgabe {task_to_add} wurde hinzugefuegt"
+msgstr "Ok, Aufgabe {task_to_add} wurde hinzugefuegt"
 
 msgid "TEAM_10_ADD_TASK_PLUS_DEADLINE_SUCCESS_MESSAGE"
-msgstr "Aufgabe {task_to_add} wurde hinzugefuegt. Abgabe am {deadline}"
+msgstr "Ok, Aufgabe {task_to_add} wurde hinzugefuegt. Abgabe am {deadline}"
 
 msgid "TEAM_10_RETRIEVE_TODOS_SUCCESS_MESSAGE"
 msgstr "Deine Aufgaben sind {my_tasks}"
 
 msgid "TEAM_10_ADDED_ROUTINE"
-msgstr "Folgende Routine für {routine_time} hinzugefügt: {routine_description}"
+msgstr "Ok, Folgende Routine für {routine_time} hinzugefügt: {routine_description}"
