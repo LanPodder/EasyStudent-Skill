@@ -23,7 +23,7 @@ def handler(routine_time: str) -> Response:
     routine = get_routine(routine_time)
     
     # We get a translated message
-    msg = _('TEAM_10_RETRIEVE_ROUTINE_SUCCESS_MESSAGE', routine_time = routine_time, routine_description = routine)
+    msg = _('TEAM_10_RETRIEVE_ROUTINE_SUCCESS_MESSAGE', routine_time = routine_time, routine_description =  ",".join(routine.values.tolist()))
     print(msg)
     # We create a simple response
     response = tell(msg)
