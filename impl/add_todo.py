@@ -7,10 +7,12 @@
 # For details see the file LICENSE in the top directory.
 #
 #
-from skill_sdk import skill, Response, tell
+from skill_sdk import skill, Response, tell, ask
 from skill_sdk.l10n import _
 
-from .services.taskservice import add_task
+from .services.taskservice import add_task, update_deadline
+
+temp = None
 
 @skill.intent_handler('TEAM_10_ADD_TASK')
 def handler(task_to_add: str, deadline: str = None) -> Response:
@@ -20,16 +22,28 @@ def handler(task_to_add: str, deadline: str = None) -> Response:
     :param deadline: str = None
     :return:        Response
     """
+    global temp
     # We get a translated message
-    msg = _('TEAM_10_ADD_TASK_NO_DEADLINE_SUCCESS_MESSAGE', task_to_add = task_to_add)
-    if(deadline is not None):
-        msg = _('TEAM_10_ADD_TASK_PLUS_DEADLINE_SUCCESS_MESSAGE', task_to_add = task_to_add)
-    
-    
-    add_task(task_to_add, deadline)
+    task = task_to_add
+    deadl = deadline
 
-    print(msg)
+    if task_to_add is not None:
+        temp = task_to_add
+        add_task(task_to_add, deadline)    
+    
+    if deadline is not None:
+        task, deadl = update_deadline(temp, deadline)
+
+    
+    msg = _('TEAM_10_ADD_TASK_NO_DEADLINE_SUCCESS_MESSAGE', task_to_add = task)
+    if(deadline is not None):
+        msg = _('TEAM_10_ADD_TASK_PLUS_DEADLINE_SUCCESS_MESSAGE', task_to_add = task, deadline = deadl)
+        
     # We create a simple response
     response = tell(msg)
+
     # We return the response
-    return ask("Bis wann musst du die Aufgabe machen?")
+    if deadline is None:
+        return ask(_('TEAM_10_ASK_TASK_DEADLINE', task_to_add = task_to_add))
+    
+    return response

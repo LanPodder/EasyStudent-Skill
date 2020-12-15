@@ -16,6 +16,11 @@ def get_tasks():
     global df_tasks
     return df_tasks['task']
 
+def update_deadline(task, deadline):
+    global df_tasks
+    df_tasks[df_tasks['task']==task]['deadline'] = deadline
+    return task, deadline
+
 def get_priority_task():
     global df_tasks
     return df_tasks.iloc[0]['task']
